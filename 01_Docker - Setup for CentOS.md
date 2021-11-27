@@ -130,7 +130,7 @@ Kubernetes에서 지원되는 Docker 버전을 설치하기 위해 18.06.0 버�
    
 
 
-# 사내Registry ReDii 접속하기
+# DockerHub 접속하기
 
 Docker Registry는 Docker의 이미지 저장소로써 운영환경에 따라 아래와 같이 3종류의 Registry를 사용할 수 있습니다.
 
@@ -142,20 +142,18 @@ Docker Registry는 Docker의 이미지 저장소로써 운영환경에 따라 �
 
 
 
-## ReDii 회원가입
+## DockerHub 회원가입
 
 Redii사이트에 접속한 후 가이드에 따라 회원가입절차를 완료합니다.
 
-- ReDii : https://sds.redii.net:8443
-- 회원가입가이드 : https://sds.redii.net:8443/help/registryguide
-
+- DockerHub : https://hub.docker.com/
 
 
 ## Docker login
 
 ```bash
-# docker login sds.redii.net
-Username: ReDii ID 입력
-Password: ReDii Password 입력
+# docker login 
+Username: DockerHub ID 입력
+Password: DockerHub Password 입력
 ```
 
