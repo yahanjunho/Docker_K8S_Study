@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 355" width="736" height="355">
+  <defs>
+    <font-face font-family="Roboto" font-size="12" panose-1="2 0 0 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="927.7344" descent="-244.14062" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Roboto-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier New" font-size="12" panose-1="2 7 3 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="41.015625" slope="0" x-height="422.85156" cap-height="571.28906" ascent="832.5195" descent="-300.29297" font-weight="400">
+      <font-face-src>
+        <font-face-name name="CourierNewPSMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Arial" font-size="12" panose-1="2 11 6 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="73.24219" slope="0" x-height="518.5547" cap-height="716.3086" ascent="905.2734" descent="-211.91406" font-weight="400">
+      <font-face-src>
+        <font-face-name name="ArialMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Times" font-size="12" panose-1="0 0 5 0 0 0 0 2 0 0" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="453.6133" cap-height="661.6211" ascent="750" descent="-250" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Times-Roman"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.7.1 
+    <dc:date>2018-05-09 23:20:09 +0000</dc:date>
+  </metadata>
+  <g id="Common_layers_in_Docker_images" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Common layers in Docker images </title>
+    <g id="Common_layers_in_Docker_images: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_10">
+        <title>zone external - grey</title>
+        <rect x="140.25" y="74.62281" width="202.5" height="44.5" fill="#fdd7d7"/>
+        <text transform="translate(155.25 89.62281)" fill="#757575">
+          <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#757575" x="0" y="11">FROM node:9.11.1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <title>zone internal - green</title>
+        <rect x="140.25" y="127.1228" width="202.5" height="50" fill="#e2f3ec"/>
+        <text transform="translate(155.25 142.1228)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="13">ADD src_app1 /src/</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <title>zone internal - blue</title>
+        <rect x="140.25" y="185.1228" width="202.5" height="57" fill="#e2f3ec"/>
+        <text transform="translate(155.25 195.1228)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="13">RUN cd /src &amp;&amp; \</tspan>
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="30">    npm install </tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <title>zone external - grey</title>
+        <rect x="393.25" y="74.62281" width="202.5" height="44.5" fill="#fdd7d7"/>
+        <text transform="translate(408.25 89.62281)" fill="#757575">
+          <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#757575" x="0" y="11">FROM node:9.11.1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <title>zone internal - green</title>
+        <rect x="393.25" y="127.1228" width="202.5" height="50" fill="#e2f3ec"/>
+        <text transform="translate(408.25 142.1228)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="13">ADD src_app2 /src/</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <title>zone internal - blue</title>
+        <rect x="393.25" y="185.1228" width="202.5" height="57" fill="#e2f3ec"/>
+        <text transform="translate(408.25 195.1228)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="13">RUN cd /src &amp;&amp; \</tspan>
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="30">    npm install </tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <text transform="translate(197.5 41.122807)" fill="#666">
+          <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#666" x="0" y="14">Dockerfile App 1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(450.5 41.122807)" fill="#666">
+          <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#666" x="0" y="14">Dockerfile App 2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <title>zone external - grey</title>
+        <rect x="140.25" y="269.5727" width="17.245791" height="17.90909" fill="#fdd7d7"/>
+      </g>
+      <g id="Graphic_12">
+        <title>zone internal - green</title>
+        <rect x="140.25" y="298.5727" width="17.245791" height="17.90909" fill="#e2f3ec"/>
+      </g>
+      <g id="Graphic_13">
+        <text transform="translate(165.93182 268.1228)" fill="#666">
+          <tspan font-family="Arial" font-size="12" font-weight="400" fill="#666" x="0" y="14">Common layers,</tspan>
+          <tspan font-family="Times" font-size="12" font-weight="400" fill="#666" y="14"> </tspan>
+          <tspan font-family="Arial" font-size="12" font-weight="400" fill="#666" y="14">downloaded only once</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <text transform="translate(165.93182 296.8772)" fill="#666">
+          <tspan font-family="Arial" font-size="12" font-weight="400" fill="#666" x="0" y="14">Layers unique to each image</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
