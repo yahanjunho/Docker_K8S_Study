@@ -144,7 +144,7 @@ Docker Registry는 Docker의 이미지 저장소로써 운영환경에 따라 �
 
 ## DockerHub 회원가입
 
-Redii사이트에 접속한 후 가이드에 따라 회원가입절차를 완료합니다.
+DockerHub사이트에 접속한 후 가이드에 따라 회원가입절차를 완료합니다.
 
 - DockerHub : https://hub.docker.com/
 
