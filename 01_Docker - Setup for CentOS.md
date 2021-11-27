@@ -135,10 +135,9 @@ Kubernetes에서 지원되는 Docker 버전을 설치하기 위해 18.06.0 버�
 Docker Registry는 Docker의 이미지 저장소로써 운영환경에 따라 아래와 같이 3종류의 Registry를 사용할 수 있습니다.
 
 - public으로 운영되는 Docker Hub
-- 사내에서 운영되는 Redii
 - 로컬서버에 설치해 사용할 수 있는 Private Local Registry
 
-여기서 사내에서 운영되는 Redii를 사용하기위한 사전준비 내용에 대해 알아보도록하겠습니다.
+여기서는 Public Registry인 DockerHub를 사용하기위한 사전준비 내용에 대해 알아보도록하겠습니다.
 
 
 
